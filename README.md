@@ -23,3 +23,10 @@ This thesis has two publications until now:
 
 + Benítez, J.A.; Labra, J.E.; Quiroga, E.; Martín, V.; García, I.; Marqués-Sánchez, P.; Benavides, C. “A Web-Based Tool for Automatic Data Collection, Curation, and Visualization of Complex Healthcare Survey Studies including Social Network Analysis,” Computational and Mathematical Methods in Medicine, vol. 2017, Article ID 2579848, 8 pages, 2017. [doi: 10.1155/2017/2579848](https://doi.org/10.1155/2017/2579848)
 + Quiroga E, García I, Benítez-Andrades JA, Benavides C, Martín V, Marqués-Sánchez P. A Qualitative Study of Secondary School Teachers’ Perception of Social Network Analysis Metrics in the Context of Alcohol Consumption among Adolescents. International Journal of Environmental Research and Public Health. 2017; 14(12):1531. [doi:10.3390/ijerph14121531](https://doi.org/10.3390/ijerph14121531)
+
+How to use SPARQL Update Queries
+================================
+
+A possibility to execute SPARQL Update Queries is using Apache Fuseki Server. The command to execute will be, for example:
+
+./s-update --service http://localhost:3030/NAMEOFYOURPROJECT/update --file=01-Relaciones.ru
