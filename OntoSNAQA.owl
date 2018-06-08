@@ -1,0 +1,3294 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.jabenitez.com/ontologies/ontosnaqa"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.jabenitez.com/ontologies/ontosnaqa">
+    <Prefix name="" IRI="http://www.jabenitez.com/ontologias/jisnaqa#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="jisnaqa" IRI="http://www.jabenitez.com/ontologias/jisnaqa#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ontology that describes Social Network Analysis applied to a particular domain through a questionnaire ontology.
+
+Includes other ontologies merged like FOAF, ontoSNA and Vocabulary.</Literal>
+    </Annotation>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswerOfPersonToQuestion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLabelOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassOnInstitute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Label_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNACharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCourseLevelOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Number_Of_Answer_Label"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTypeOfCharacteristicOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkEigenvector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Date_End"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacteristicValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAoPAndQuestionOfQ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualInDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNARelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberOfObjectActors"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AoPaQuestValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAoPAndQuestionOfA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTypeOfRelatioOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQuestionOfTypeOfCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberOfActors"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_Visible"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQuestionnaireOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerSetOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkBetweenness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAcademicCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnswerSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dichotomous"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswered"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacteristicOfQPE"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Number_Of_Answers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNAIndice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualOutDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuestionSNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIsolateInstanceOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcademicCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNANetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNAConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualInDegreeOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNATypeOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeText_Label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restricted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualBetweennessOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfRelations"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Position_Number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualDegree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Domain_IRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkEigenvector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LikertScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacteristicOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDomainOntology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualDegreeOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNACharacteristicValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_PositionLabel_Text"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPossibleCharacteristicValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuestionOfTypeOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDomainOntologyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerOfCharacteristicValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZipCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eigenvector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAoPAndQuestionOfA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNetworkOfTypeOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCourseLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Characteristic_Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelationOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualClosenessOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfObjectActors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelationOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleChoiceSingleSelection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDomainClassOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Answer_Label"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNetworkOfQPE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerOfPersonOfCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelationOfType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswerSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTypeOfRelationOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStudent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Data_Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnAnswerRelatingTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacteristicOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQuestionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberOfActorsInvolvedInARelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnCharacteristicOfPersonOfQuestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfActorsInvolvedInARelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkBetweenness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswerOfTypeOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualEigenvector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNAIsolate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMergedDomainClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemanticDifferential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClosenessCentrality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDomainClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOfAnswerOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkCloseness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Betweenness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isStudentOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkCloseness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position_Label"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTargetOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualInDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CourseLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualBetweennessOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnsweredToQuestionnairePastEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuestionnaireDefault"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Domain_Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnsweredTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassInstituteData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuestionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BetweennessCentrality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_Ontology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicValueOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenEnded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Questionnaire"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipleChoiceMultipleSelection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Person_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualBetweenness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualCloseness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIsolateInstanceOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInstitute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkInDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualBetweenness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerOfTypeOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkOutDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIsolateInstanceOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Number_Of_Selected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInstituteOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_SNA_Value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberOfSubjectActors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOfQuestion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicValueOfAnswer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DensityOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQuestionOfTypeOfRelation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Event_Id"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQuestionOfCharacteristicOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Network_Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Label"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualInDegreeOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCourseOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfActors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDensityOfNetwork"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualClosenessOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkInDegree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Characteristic_Value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelationOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNetworkOutDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNACharacteristicValueInteger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeText"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNACharacteristicValueRange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BalancedScale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumberOfRelations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOfQPE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAcademicCategoryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOfType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Answer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualEigenvector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAnsweredByPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnsweredToQuestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualCloseness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelationOfQPE"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIsolateInstanceOfPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelationWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndividualOutDegree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroupOfClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumberOfSubjectActors"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Question_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Date_Start"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndividualDegreeOfPerson"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcademicCategory"/>
+        <Class IRI="#ClassInstituteData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnswerSet"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer_Label"/>
+        <Class IRI="#Label"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BalancedScale"/>
+        <Class IRI="#AnswerSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Betweenness"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BetweennessCentrality"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Restricted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closeness"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClosenessCentrality"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class IRI="#ClassInstituteData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CourseLevel"/>
+        <Class IRI="#ClassInstituteData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Restricted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Degree"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DensityOfNetwork"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dichotomous"/>
+        <Class IRI="#AnswerSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain_Class"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain_Ontology"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eigenvector"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#Restricted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreeText"/>
+        <Class IRI="#OpenEnded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreeText_Label"/>
+        <Class IRI="#Label"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroupOfClass"/>
+        <Class IRI="#ClassInstituteData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InDegree"/>
+        <Class IRI="#Degree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualBetweenness"/>
+        <Class IRI="#Betweenness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualCloseness"/>
+        <Class IRI="#Closeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualDegree"/>
+        <Class IRI="#Degree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualEigenvector"/>
+        <Class IRI="#Eigenvector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualInDegree"/>
+        <Class IRI="#InDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualOutDegree"/>
+        <Class IRI="#OutDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institute"/>
+        <Class IRI="#ClassInstituteData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Label"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LikertScale"/>
+        <Class IRI="#AnswerSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleChoiceMultipleSelection"/>
+        <Class IRI="#AnswerSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipleChoiceSingleSelection"/>
+        <Class IRI="#AnswerSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkBetweenness"/>
+        <Class IRI="#Betweenness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkCloseness"/>
+        <Class IRI="#Closeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkDegree"/>
+        <Class IRI="#Degree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkEigenvector"/>
+        <Class IRI="#Eigenvector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkInDegree"/>
+        <Class IRI="#InDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkOutDegree"/>
+        <Class IRI="#OutDegree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfActors"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfActorsInvolvedInARelation"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfObjectActors"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfRelations"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumberOfSubjectActors"/>
+        <Class IRI="#SNAIndice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenEnded"/>
+        <Class IRI="#Answer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutDegree"/>
+        <Class IRI="#Degree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhoneNumber"/>
+        <Class IRI="#Restricted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position_Label"/>
+        <Class IRI="#Label"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuestionSNA"/>
+        <Class IRI="#Question"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Questionnaire"/>
+        <Class IRI="#QuestionnaireDefault"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restricted"/>
+        <Class IRI="#OpenEnded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNACharacteristic"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNACharacteristicValue"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNACharacteristicValueInteger"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNACharacteristicValueRange"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNAIndice"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNAIsolate"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNANetwork"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNARelation"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNATypeOfRelation"/>
+        <Class IRI="#SNAConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemanticDifferential"/>
+        <Class IRI="#AnswerSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#Restricted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZipCode"/>
+        <Class IRI="#Restricted"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#SNANetwork"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAcademicCategory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnswerOfPersonToQuestion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnswerSet"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnswered"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnsweredTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAnsweredToQuestion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCourse"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCourseLevel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDomainClass"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDomainOntology"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInstitute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasItem"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLabel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMergedDomainClass"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPosition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasQuestionnaire"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStudent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAcademicCategoryOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAnAnswerRelatingTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAnswerOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAnswerSetOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCourseLevelOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCourseOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDomainClassOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDomainOntologyOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInstituteOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLabelOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isQuestionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isQuestionnaireOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRelationOfQPE"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isStudentOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAcademicCategory"/>
+        <ObjectProperty IRI="#isAcademicCategoryOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <ObjectProperty IRI="#isAnswerOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAnswerOfPersonToQuestion"/>
+        <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAnswerOfTypeOfRelation"/>
+        <ObjectProperty IRI="#isAnswerOfTypeOfRelation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAnswerSet"/>
+        <ObjectProperty IRI="#isAnswerSetOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAnsweredToQuestion"/>
+        <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAnsweredToQuestionnairePastEvent"/>
+        <ObjectProperty IRI="#isAnsweredByPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAoPAndQuestionOfA"/>
+        <ObjectProperty IRI="#isAoPAndQuestionOfA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCharacteristicOfNetwork"/>
+        <ObjectProperty IRI="#isCharacteristicOfNetwork"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCharacteristicOfPerson"/>
+        <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCharacteristicOfQPE"/>
+        <ObjectProperty IRI="#isCharacteristicOfQPE"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCharacteristicValue"/>
+        <ObjectProperty IRI="#isCharacteristicValueOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCourse"/>
+        <ObjectProperty IRI="#isCourseOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCourseLevel"/>
+        <ObjectProperty IRI="#isCourseLevelOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDomainClass"/>
+        <ObjectProperty IRI="#isDomainClassOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDomainOntology"/>
+        <ObjectProperty IRI="#isDomainOntologyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIndividualBetweenness"/>
+        <ObjectProperty IRI="#isIndividualBetweennessOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIndividualCloseness"/>
+        <ObjectProperty IRI="#isIndividualClosenessOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIndividualDegree"/>
+        <ObjectProperty IRI="#isIndividualDegreeOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIndividualEigenvector"/>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIndividualInDegree"/>
+        <ObjectProperty IRI="#isIndividualInDegreeOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIndividualOutDegree"/>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasInstitute"/>
+        <ObjectProperty IRI="#isInstituteOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIsolateInstanceOfNetwork"/>
+        <ObjectProperty IRI="#isIsolateInstanceOfNetwork"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIsolateInstanceOfPerson"/>
+        <ObjectProperty IRI="#isIsolateInstanceOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLabel"/>
+        <ObjectProperty IRI="#isLabelOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasNetwork"/>
+        <ObjectProperty IRI="#isNetworkOfQPE"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPossibleCharacteristicValue"/>
+        <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <ObjectProperty IRI="#isQuestionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasQuestionOfTypeOfRelation"/>
+        <ObjectProperty IRI="#isQuestionOfTypeOfRelation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasQuestionnaire"/>
+        <ObjectProperty IRI="#isQuestionnaireOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRelation"/>
+        <ObjectProperty IRI="#isRelationOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRelationOfPerson"/>
+        <ObjectProperty IRI="#isRelationOfNetwork"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasStudent"/>
+        <ObjectProperty IRI="#isStudentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAnCharacteristicOfPersonOfQuestion"/>
+        <ObjectProperty IRI="#isQuestionOfCharacteristicOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAnswerOfCharacteristicValue"/>
+        <ObjectProperty IRI="#isCharacteristicValueOfAnswer"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAnswerOfPersonOfCharacteristic"/>
+        <ObjectProperty IRI="#isCharacteristicOfAnswerOfPerson"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isCharacteristicOfQuestion"/>
+        <ObjectProperty IRI="#isQuestionOfTypeOfCharacteristic"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isCharacteristicOfType"/>
+        <ObjectProperty IRI="#isTypeOfCharacteristicOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isNetworkOfTypeOfRelation"/>
+        <ObjectProperty IRI="#isTypeOfRelationOfNetwork"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRelationOfType"/>
+        <ObjectProperty IRI="#isTypeOfRelatioOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRelationWith"/>
+        <ObjectProperty IRI="#isTargetOfRelation"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAcademicCategory"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <Class IRI="#AnswerSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswerOfPersonToQuestion"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswerOfTypeOfRelation"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswerSet"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswered"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnsweredTo"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnsweredToQuestion"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnsweredToQuestionnairePastEvent"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAoPAndQuestionOfA"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCharacteristicOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCharacteristicOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCharacteristicOfQPE"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCharacteristicValue"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCourseLevel"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDensityOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDomainClass"/>
+        <Class IRI="#Domain_Ontology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDomainOntology"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualBetweenness"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualCloseness"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualDegree"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualEigenvector"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualInDegree"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndividualOutDegree"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInstitute"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIsolateInstanceOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIsolateInstanceOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasItem"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLabel"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMergedDomainClass"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetwork"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkBetweenness"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkCloseness"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkDegree"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkEigenvector"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkInDegree"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNetworkOutDegree"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfActors"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfActorsInvolvedInARelation"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfObjectActors"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfRelations"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumberOfSubjectActors"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPosition"/>
+        <Class IRI="#Position_Label"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPossibleCharacteristicValue"/>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <Class IRI="#Questionnaire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuestionOfTypeOfRelation"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuestionnaire"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRelation"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRelationOfPerson"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStudent"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAcademicCategoryOf"/>
+        <Class IRI="#AcademicCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnAnswerRelatingTo"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnCharacteristicOfPersonOfQuestion"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerOf"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerOfCharacteristicValue"/>
+        <Class IRI="#Answer_Label"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerOfPersonOfCharacteristic"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerOfTypeOfRelation"/>
+        <Class IRI="#Answer_Label"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnswerSetOf"/>
+        <Class IRI="#AnswerSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAnsweredByPerson"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicOfAnswerOfPerson"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicOfNetwork"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicOfQPE"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicOfQuestion"/>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicOfType"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicValueOf"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCharacteristicValueOfAnswer"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCourseLevelOf"/>
+        <Class IRI="#CourseLevel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCourseOf"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDomainClassOf"/>
+        <Class IRI="#Domain_Class"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDomainOntologyOf"/>
+        <Class IRI="#Domain_Ontology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualBetweennessOfNetwork"/>
+        <Class IRI="#IndividualBetweenness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualBetweennessOfPerson"/>
+        <Class IRI="#IndividualBetweenness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualClosenessOfNetwork"/>
+        <Class IRI="#IndividualCloseness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualClosenessOfPerson"/>
+        <Class IRI="#IndividualCloseness"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualDegreeOfNetwork"/>
+        <Class IRI="#IndividualDegree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualDegreeOfPerson"/>
+        <Class IRI="#IndividualDegree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfNetwork"/>
+        <Class IRI="#IndividualEigenvector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfPerson"/>
+        <Class IRI="#IndividualEigenvector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualInDegreeOfNetwork"/>
+        <Class IRI="#IndividualInDegree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualInDegreeOfPerson"/>
+        <Class IRI="#IndividualInDegree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfNetwork"/>
+        <Class IRI="#IndividualOutDegree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfPerson"/>
+        <Class IRI="#IndividualOutDegree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInstituteOf"/>
+        <Class IRI="#Institute"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIsolateInstanceOfNetwork"/>
+        <Class IRI="#SNAIsolate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIsolateInstanceOfPerson"/>
+        <Class IRI="#SNAIsolate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLabelOf"/>
+        <Class IRI="#Answer_Label"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLabelOf"/>
+        <Class IRI="#Label"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isNetworkOfQPE"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isNetworkOfTypeOfRelation"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isQuestionOf"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isQuestionOfCharacteristicOfPerson"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isQuestionOfTypeOfCharacteristic"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isQuestionOfTypeOfRelation"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isQuestionnaireOf"/>
+        <Class IRI="#Questionnaire"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelationOfNetwork"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelationOfPerson"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelationOfType"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelationWith"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isStudentOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTargetOfRelation"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTypeOfCharacteristicOf"/>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTypeOfRelatioOf"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTypeOfRelationOfNetwork"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAcademicCategory"/>
+        <Class IRI="#AcademicCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswerOfPersonToQuestion"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswerOfTypeOfRelation"/>
+        <Class IRI="#Answer_Label"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswerSet"/>
+        <Class IRI="#AnswerSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswered"/>
+        <Class IRI="#Label"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnsweredTo"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnsweredToQuestion"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnsweredToQuestionnairePastEvent"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCharacteristicOfNetwork"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCharacteristicOfPerson"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCharacteristicOfQPE"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCharacteristicValue"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCourse"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCourse"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCourse"/>
+            <Class IRI="#Course"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCourseLevel"/>
+        <Class IRI="#CourseLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDensityOfNetwork"/>
+        <Class IRI="#DensityOfNetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDomainClass"/>
+        <Class IRI="#Domain_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDomainOntology"/>
+        <Class IRI="#Domain_Ontology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualBetweenness"/>
+        <Class IRI="#IndividualBetweenness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualCloseness"/>
+        <Class IRI="#IndividualCloseness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualDegree"/>
+        <Class IRI="#IndividualDegree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualEigenvector"/>
+        <Class IRI="#IndividualEigenvector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualInDegree"/>
+        <Class IRI="#IndividualInDegree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndividualOutDegree"/>
+        <Class IRI="#IndividualOutDegree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInstitute"/>
+        <Class IRI="#Institute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIsolateInstanceOfNetwork"/>
+        <Class IRI="#SNAIsolate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIsolateInstanceOfPerson"/>
+        <Class IRI="#SNAIsolate"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLabel"/>
+        <Class IRI="#Answer_Label"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMember"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMergedDomainClass"/>
+        <Class IRI="#Domain_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkBetweenness"/>
+        <Class IRI="#NetworkBetweenness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkCloseness"/>
+        <Class IRI="#NetworkCloseness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkDegree"/>
+        <Class IRI="#NetworkDegree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkEigenvector"/>
+        <Class IRI="#NetworkEigenvector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkInDegree"/>
+        <Class IRI="#NetworkInDegree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNetworkOutDegree"/>
+        <Class IRI="#NetworkOutDegree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberOfActors"/>
+        <Class IRI="#NumberOfActors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberOfActorsInvolvedInARelation"/>
+        <Class IRI="#NumberOfActorsInvolvedInARelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberOfObjectActors"/>
+        <Class IRI="#NumberOfActors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberOfRelations"/>
+        <Class IRI="#NumberOfRelations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumberOfSubjectActors"/>
+        <Class IRI="#NumberOfSubjectActors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPossibleCharacteristicValue"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuestionOfTypeOfRelation"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuestionnaire"/>
+        <Class IRI="#Questionnaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRelation"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRelationOfPerson"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStudent"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAcademicCategoryOf"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnAnswerRelatingTo"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnCharacteristicOfPersonOfQuestion"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerOf"/>
+        <Class IRI="#AnswerSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerOfCharacteristicValue"/>
+        <Class IRI="#SNACharacteristicValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerOfPersonOfCharacteristic"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerOfTypeOfRelation"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnswerSetOf"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAnsweredByPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAoPAndQuestionOfA"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAoPAndQuestionOfQ"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicOfAnswerOfPerson"/>
+        <Class IRI="#AnswerOfPersonToQuestion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicOfQPE"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicOfQuestion"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicOfType"/>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicValueOf"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCharacteristicValueOfAnswer"/>
+        <Class IRI="#Answer_Label"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCourseLevelOf"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCourseOf"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDomainClassOf"/>
+        <Class IRI="#Domain_Ontology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDomainOntologyOf"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualBetweennessOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualBetweennessOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualClosenessOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualClosenessOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualDegreeOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualDegreeOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualEigenvectorOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualInDegreeOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualInDegreeOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndividualOutDegreeOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInstituteOf"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIsolateInstanceOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIsolateInstanceOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLabelOf"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNetworkOfQPE"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isNetworkOfTypeOfRelation"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQuestionOf"/>
+        <Class IRI="#Questionnaire"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQuestionOfCharacteristicOfPerson"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQuestionOfTypeOfCharacteristic"/>
+        <Class IRI="#SNATypeOfCharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQuestionOfTypeOfRelation"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQuestionnaireOf"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelationOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelationOfPerson"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelationOfType"/>
+        <Class IRI="#SNATypeOfRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelationWith"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isStudentOf"/>
+        <Class IRI="#ClassOnInstitute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTargetOfRelation"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeOfCharacteristicOf"/>
+        <Class IRI="#SNACharacteristic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeOfRelatioOf"/>
+        <Class IRI="#SNARelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTypeOfRelationOfNetwork"/>
+        <Class IRI="#SNANetwork"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_Date_Start"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#AoPaQuestValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Number_Of_Answers"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Number_Of_Selected"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Question_Text"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_SNA_Value"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Characteristic_Name"/>
+        <Class IRI="#SNACharacteristic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Characteristic_Value"/>
+        <Class IRI="#SNACharacteristic"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Data_Name"/>
+        <Class IRI="#ClassInstituteData"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Date"/>
+        <Class IRI="#SNANetwork"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Date_End"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Date_Start"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Domain_IRI"/>
+        <Class IRI="#Domain_Ontology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Domain_Name"/>
+        <Class IRI="#Domain_Ontology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Event_Id"/>
+        <Class IRI="#QuestionnairePastEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Label_Text"/>
+        <Class IRI="#Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Network_Name"/>
+        <Class IRI="#SNANetwork"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Number_Of_Answer_Label"/>
+        <Class IRI="#Answer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Number_Of_Answers"/>
+        <Class IRI="#AnswerSet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Number_Of_Selected"/>
+        <Class IRI="#AnswerSet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_PositionLabel_Text"/>
+        <Class IRI="#Position_Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Position_Number"/>
+        <Class IRI="#Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Question_Text"/>
+        <Class IRI="#Question"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_SNA_Value"/>
+        <Class IRI="#SNAIndice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Value"/>
+        <Class IRI="#Answer_Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_Visible"/>
+        <Class IRI="#Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_Visible"/>
+        <Class IRI="#Position_Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#AoPaQuestValue"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Characteristic_Value"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Data_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Value"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PersonOfNetworkAndQPE</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#AnswerOfPersonToQuestion"/>
+                <Variable abbreviatedIRI="jisnaqa:aoptq"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+                <Variable abbreviatedIRI="jisnaqa:aoptq"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SNANetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAnsweredToQuestionnairePastEvent"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMember"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RelationAssignment</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+                <Variable abbreviatedIRI="jisnaqa:a"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnAnswerRelatingTo"/>
+                <Variable abbreviatedIRI="jisnaqa:a"/>
+                <Variable abbreviatedIRI="jisnaqa:q"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+                <Variable abbreviatedIRI="jisnaqa:a"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:q"/>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isTypeOfRelationOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:tor"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfTypeOfRelation"/>
+                <Variable abbreviatedIRI="jisnaqa:al"/>
+                <Variable abbreviatedIRI="jisnaqa:tor"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isNetworkOfQPE"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable abbreviatedIRI="jisnaqa:q"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#SNANetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAnswered"/>
+                <Variable abbreviatedIRI="jisnaqa:a"/>
+                <Variable abbreviatedIRI="jisnaqa:al"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SNARelation"/>
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isRelationOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isRelationOfType"/>
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+                <Variable abbreviatedIRI="jisnaqa:tor"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isRelationOfQPE"/>
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isRelationOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isRelationWith"/>
+                <Variable abbreviatedIRI="jisnaqa:rel"/>
+                <Variable abbreviatedIRI="jisnaqa:q"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CharacteristicIntegerAdd</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAnsweredToQuestionnairePastEvent"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#SNACharacteristicValueInteger"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+                <Variable abbreviatedIRI="jisnaqa:toa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMember"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SNACharacteristic"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfType"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:toa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfQPE"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CreateSNAConceptsOfPersonsInNetwork</Literal>
+        </Annotation>
+        <Body>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMember"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:iso"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#SNANetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ClassAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualDegreeOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#IndividualBetweenness"/>
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualBetweennessOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualClosenessOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualOutDegreeOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIsolateInstanceOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:iso"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualDegreeOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualInDegreeOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#IndividualEigenvector"/>
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#IndividualOutDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_SNA_Value"/>
+                <Variable abbreviatedIRI="jisnaqa:iso"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualEigenvectorOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualBetweennessOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIsolateInstanceOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:iso"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#IndividualCloseness"/>
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#IndividualDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualOutDegreeOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualClosenessOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualInDegreeOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isIndividualEigenvectorOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#IndividualInDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#SNAIsolate"/>
+                <Variable abbreviatedIRI="jisnaqa:iso"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CharacteristicAssignment</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfQuestionnairePastEvent"/>
+                <Variable abbreviatedIRI="jisnaqa:a"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+                <Variable abbreviatedIRI="jisnaqa:atype"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfCharacteristicValue"/>
+                <Variable abbreviatedIRI="jisnaqa:al"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAnsweredToQuestion"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:atoq"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAnswered"/>
+                <Variable abbreviatedIRI="jisnaqa:atoq"/>
+                <Variable abbreviatedIRI="jisnaqa:al"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ClassAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#SNACharacteristic"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicValueOf"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfType"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:atype"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfQPE"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:qpe"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CharacteristicOfPersonOfAnswerRule</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#SNACharacteristic"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#SNACharacteristicValueInteger"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isPossibleCharacteristicValueOf"/>
+                <Variable abbreviatedIRI="jisnaqa:av"/>
+                <Variable abbreviatedIRI="jisnaqa:toa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfType"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:toa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAnsweredTo"/>
+                <Variable abbreviatedIRI="jisnaqa:aoptq"/>
+                <Variable abbreviatedIRI="jisnaqa:q"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfQuestion"/>
+                <Variable abbreviatedIRI="jisnaqa:toa"/>
+                <Variable abbreviatedIRI="jisnaqa:q"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isAnswerOfPersonToQuestionOf"/>
+                <Variable abbreviatedIRI="jisnaqa:aoptq"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isCharacteristicOfAnswerOfPerson"/>
+                <Variable abbreviatedIRI="jisnaqa:aop"/>
+                <Variable abbreviatedIRI="jisnaqa:aoptq"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CreateSNAConceptsOfNetworks</Literal>
+        </Annotation>
+        <Body>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:nor"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:don"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:nooa"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:noair"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#SNANetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isNetworkOfQPE"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:nosa"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:noa"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl#makeOWLThing">
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+                <Variable abbreviatedIRI="jisnaqa:p"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#NetworkOutDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNumberOfObjectActors"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:nooa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetworkInDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetworkBetweenness"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#NetworkInDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:in"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetworkEigenvector"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNumberOfRelations"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:nor"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetworkCloseness"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#NetworkCloseness"/>
+                <Variable abbreviatedIRI="jisnaqa:cn"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDensityOfNetwork"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:don"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetworkOutDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:ou"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#NetworkDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#NetworkEigenvector"/>
+                <Variable abbreviatedIRI="jisnaqa:ei"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNumberOfActors"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:noa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNetworkDegree"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:dg"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNumberOfSubjectActors"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:nosa"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#NetworkBetweenness"/>
+                <Variable abbreviatedIRI="jisnaqa:bw"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasNumberOfActorsInvolvedInARelation"/>
+                <Variable abbreviatedIRI="jisnaqa:net"/>
+                <Variable abbreviatedIRI="jisnaqa:noair"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClassInstituteData</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A ClassOnInstitute has details about it. This class allows to add this data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClassInstituteData</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un objeto de clase ClassOnInstitute posee una serie de datos. Esta clase permite asignar dichos datos.
+
+Por ejemplo:
+
+1º de Bachiller A de Ciencias Sociales
+
+1º es el Curso (Course)
+Bachiller el Nivel del curso (Course Level)
+A es el grupo (GroupOfClass)
+Ciencias Sociales es la Categoría Académica (AcademicCategory)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClassOnInstitute</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An instance of ClassOnInstitute may be:
+
+1º de Bachiller A de Ciencias Sociales del Instituto Padre Isla.
+
+This instance has net data:
+
+AcademicCategory: Ciencias Sociales
+Course: 1º
+CourseLevel: Bachiller
+Institute: Instituto Padre Isla
+GroupOfClass: A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClassOnInstitute</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una clase de un instituto sería por ejemplo:
+
+1º de Bachiller A de Ciencias Sociales del Instituto Padre Isla.
+
+Dicha clase posee una serie de atributos que son:
+
+Categoría Académica: Ciencias Sociales
+Curso: 1º
+Nivel de curso: Bachiller
+Instituto: Instituto Padre Isla
+Grupo de clase: A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A person class represent persons.
+
+In our ontology, a person is mainly:
+
+- An actor of a network.
+- An user of a questionnaire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">La clase Person representa el concepto de persona.
+
+En nuestra ontología, las personas principalmente son:
+
+- Actores de una red.
+- Usuarios que realizan una encuesta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Questionnaire</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Esta clase representa instancias de tipo cuestionario.
+
+Un cuestionario está compuesto por: preguntas, respuestas, conjuntos de respuestas, etiquetas, respuestas de personas a preguntas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Questionnaire</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class represents a concept of Questionnaire.
+
+A questionnaire has a lot of items: questions, answers, answersets, answer of person to questions, labels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAcademicCategory</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Esta propiedad enlaza a una clase con una categoría académica. Una clase de instituto pertenece a una categoría académica. Por ejemplo: ciencias sociales.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAcademicCategory</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property links to a class with an academic category. An institute class belongs to an academic category. For example: social sciences.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswer</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An AnswerSet can have many answers.rdfs:comment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswer</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un AnswerSet puede tener muchas respuestas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswerOfPersonToQuestion</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A completed questionnaire has many answers from many people.
+
+An answer belongs only to a completed questionnaire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswerOfPersonToQuestion</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un cuestionario realizado posee muchas respuestas de muchas personas.
+
+Una respuesta solo pertenece a un cuestionario realizado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswerOfTypeOfRelation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A relationship between actors in a network can be determined by a label.
+
+For example: Juan is friend to Luis if the answer to the question &quot;How much time you spend next to Luis? Is:
+
+Almost always
+Always
+
+Both objects are &quot;Answer_Label&quot; that have the property of data has_Label &quot;Almost always&quot; and has_Label &quot;Always&quot;.
+
+A relationship can exist with multiple tags.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswerOfTypeOfRelation</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una relación entre actores de una red puede estar determinada por una etiqueta.
+
+Por ejemplo: Juan es amigo a Luis si la respuesta a la pregunta &quot;¿Cuánto tiempo pasas junto a Luis? es:
+
+Casi siempre
+Siempre
+
+Ambos objetos son &quot;Answer_Label&quot; que poseen como propiedad de dato has_Label &quot;Casi siempre&quot; y has_Label &quot;Siempre&quot;.
+
+Una relación puede existir con varias etiquetas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswerSet</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A question contains a set of answers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswerSet</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una pregunta contiene un conjunto de respuestas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswered</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A person who answers a question generates an AnswerOfPersonToQuestion class object. That object is related to an Answer_Label. Cardinality 1:1.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnswered</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una persona que contesta una pregunta genera un objeto de clase AnswerOfPersonToQuestion. Ese objeto está relacionado con una etiqueta de respuesta. Cardinalidad 1: 1.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnsweredTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">One object of AnswerOfPersonToQuestion answers to a Question.
+
+For example: Man has an AnswerOfPersonToQuestion related with a Question has_Questin_Name Gender? that is related with Answer_Label that has_Label Man</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnsweredTo</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un objeto de AnswerOfPersonToQuestion responde a una pregunta.
+
+Por ejemplo: El hombre tiene un AnswerOfPersonToQuestion relacionado con una pregunta que has_Question_Name Género? Que está relacionado con un Answer_Label que has_Label Man</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnsweredToQuestion</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A person who answers a question from a questionnaire, generates an object of type X.
+
+A person has many answers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnsweredToQuestion</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una persona que contesta a una pregunta de un cuestionario, genera un objeto de tipo X.
+
+Una persona posee muchas respuestas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnsweredToQuestionnairePastEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Property that relates a person (Person) with a questionnaire made at a certain time (QuestionnairePastEvent).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAnsweredToQuestionnairePastEvent</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Propiedad que relaciona a una persona (Person) con un cuestionario realizado en un momento determinado (QuestionnairePastEvent).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicOfNetwork</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">En una red, sus actores contienen uno o varios atributos.
+
+Si Juan es hombre, Juan está relacionado con un objeto de tipo SNACharacteristic el cual posee un SNACharacteristicValue correspondiente a hombre.
+
+Así que una red posee muchos objetos de la clase SNACharacteristic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicOfNetwork</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In a network, its actors contain one or more attributes.
+
+If John is a man, John is related to an object of type SNACharacteristic which has a SNACharacteristicValue corresponding to man.
+
+So a network has many objects in the SNACharacteristic class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicOfPerson</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">En una red, sus actores contienen uno o varios atributos.
+
+Si Juan es hombre, Juan está relacionado con un objeto de tipo SNACharacteristic el cual posee un SNACharacteristicValue correspondiente a hombre.
+
+Así que una red posee muchos objetos de la clase SNACharacteristic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicOfPerson</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In a network, its actors contain one or more attributes.
+
+If John is a man, John is related to an object of type SNACharacteristic which has a SNACharacteristicValue corresponding to man.
+
+So a network has many objects in the SNACharacteristic class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicOfQPE</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An attribute is born from a response to a question from a questionnaire made at a given time.
+
+An attribute only belongs to a questionnaire made at a given time.
+
+For example, today Juan answers that his income is less than ten thousand euros. Juan repeats the questionnaire after two years and replies that his income is more than thirty thousand euros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicOfQPE</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un atributo nace de una respuesta a una pregunta de un cuestionario realizado en un momento determinado.
+
+Un atributo solo pertenece a un cuestionario realizado en un momento determinado.
+
+Por ejemplo, hoy Juan contesta que sus ingresos son inferiores a diez mil euros. Juan repite el cuestionario pasados dos años y responde que sus ingresos son superiores a treinta mil euros.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicValue</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">John has an attribute class object.
+
+This attribute has a value. That value is related by this property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristicValue</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Juan posee un objeto de clase atributo.
+
+Dicho atributo posee un valor. Ese valor se relaciona mediante esta propiedad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCourse</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An institute class has a course.
+
+For example, the first class of Bachiller A belongs to the first course of Bachiller.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCourse</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una clase de instituto posee un curso.
+
+Por ejemplo, la clase de Primero de Bachiller A pertenece al curso Primero de Bachiller.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCourseLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An institute class has one level.
+For example 1º of Bachiller To, its level is 1º of Bachiller.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCourseLevel</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una clase de instituto tiene un nivel. 
+Por ejemplo 1º de Bachiller A, su nivel es 1º de Bachiller.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInstitute</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A class of Institute belongs to an Institute.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInstitute</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una clase de Instituto pertenece a un Instituto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLabel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Response has a tag, for example:
+
+Answer01 hasLabel &quot;Man&quot;
+
+Man is the answer tag 01.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLabel</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Una Respuesta posee una etiqueta, por ejemplo:
+
+Respuesta01 hasLabel &quot;Hombre&quot;
+
+Hombre es la etiqueta de la respuesta 01.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
